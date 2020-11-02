@@ -1,0 +1,104 @@
+@media screen and (min-width: 768px) {
+
+    #hire-us{
+        display: flex;
+        float: right;
+        border-radius: 10px;
+        text-align: center;
+    
+      }
+
+      .largest{
+        background-color:  rgba(247, 136, 167, 0.6);
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        position: left;
+        transform: translate(250%, 20%);
+        -webkit-transform: translate(250%, 20%);
+        -moz-transform: translate(250%, 20%);
+        -ms-transform: translate(250%, 20%);
+        -o-transform: translate(250%, 20%);
+}
+    
+    .medium{
+        background-color: rgba(247, 193, 162, 0.7);
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        position: top;
+        transform: translate(350%, -30%);
+        -webkit-transform: translate(350%, -30%);
+        -moz-transform: translate(350%, -30%);
+        -ms-transform: translate(350%, -30%);
+        -o-transform: translate(350%, -30%);
+}
+    
+    .smallest{
+        background-color:rgba(207, 130, 213, 0.6);
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        transform: translate(950%, -400%);
+        position: right;
+        -webkit-transform: translate(950%, -400%);
+        -moz-transform: translate(950%, -400%);
+        -ms-transform: translate(950%, -400%);
+        -o-transform: translate(950%, -400%);
+}
+    }
+    #border{
+        margin-left: auto;
+        float: left;
+    }
+    
+    #nav{
+        color: #69696a;
+        display: flex;
+        
+    }
+    
+    ul{
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        flex-direction: row;
+        flex-direction: row-reverse;
+      }
+    
+      li a {
+        display: block;
+        width: 80px;
+        padding: 4px;
+        color: #69696a;
+        text-decoration: none;
+        
+      }
+    
+      a:visited {
+        color:#69696a;
+      }
+    
+    .button{
+        background-color: #000000;
+        color: #fff;
+        border-radius: 15px;
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+        display: flex;
+        flex-flow: row-reverse;
+    }
+    
+    blockquote {
+      border-left: 3px solid #69696a;
+      padding-left: 10px;
+      margin: 10px;
+      width: 50%;
+    }
+
+
+
+body{
+    background-color: #f9fafc;
+    font-family: 'Open Sans', sans-serif;
